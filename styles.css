@@ -34,6 +34,19 @@
   gap: 1rem;
   margin-top: 0.5rem;
 }
+.project-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.project-details {
+  flex: 1;
+}
+
+.project-gallery {
+  flex: 1;
+  min-width: 300px;
+}
 
 /* Адаптивность */
 @media (max-width: 768px) {
@@ -41,3 +54,4 @@
     flex-direction: column;
   }
 }
+
